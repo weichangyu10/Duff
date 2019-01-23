@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 on Duff</title>
+    <link>/publication_types/3/</link>
+    <description>Recent content in 3 on Duff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +1100</lastBuildDate>
+    
+	<atom:link href="/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Variational nonparametric discriminant analysis</title>
+      <link>/publication/clothing-search/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +1100</pubDate>
+      
+      <guid>/publication/clothing-search/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian hypothesis tests with diffuse priors: Can we have our cake and eat it too?</title>
+      <link>/publication/cake/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/publication/cake/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>Variational discriminant analysis with variable selection</title>
+      <link>/publication/person-re-identification/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +1000</pubDate>
+      
+      <guid>/publication/person-re-identification/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+  </channel>
+</rss>
