@@ -1,0 +1,62 @@
+---
+title: Introduction to Bayesian Inference
+author: Weichang Yu
+date: '2019-01-24'
+slug: introduction-to-bayesian-inference
+categories: []
+tags:
+  - Bayesian inference
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+# Bayesian Inference
+Suppose we have observed the data $\mathbf{x} = (x_1, \ldots, x_n)$ that are drawn from the model $\mathcal{P} = \{  p_i(x_i \; | \boldsymbol{\theta}), \, 1 \le i \le n \}$, where $\boldsymbol{\theta}$ is a vector of unknown parameters. In Bayesian inference, we express our uncertainty about $\boldsymbol{\theta}$ with a _prior distribution_ on the space of all possible values which $\boldsymbol{\theta}$ can take and revise our uncertainty using information provided by the observed data. Our objective is to compute the posterior distribution of $\boldsymbol{\theta}$ - the conditional distribution of $\boldsymbol{\theta}$ given the data $\mathbf{x}$,
+\begin{align*}
+p (\boldsymbol{\theta} | \mathbf{x}) &= \frac{p (\boldsymbol{\theta}, \mathbf{x})}{p(\mathbf{x})}, \\ 
+&\propto K (\boldsymbol{\theta}, \mathbf{x}) \;\;\;\; (1).
+\end{align*}
+<br />
+This distribution represents our revised uncertainty about $\boldsymbol{\theta}$ after observing the data $\mathbf{x}$. Notice that we have expressed the
+posterior distribution up to a proportionality constant in the previous equation. The function $K$ is known as the kernel of the posterior distribution
+and can be used to identify the distributional family which the posterior belongs to. This allows us to bypass the need to compute the proportionality
+constant explicitly. However, the kernel function may not belong to any recognisable distributional family. In this case, one has to evaluate the proportionality
+constant via the integral
+$$
+\left \{ \int K (\boldsymbol{\theta}, \mathbf{x}) \, d \boldsymbol{\theta} \right \}^{-1}.
+$$
+Using the posterior distribution, we may perform inference by computing the posterior moments.
+
+<br />
+<u>Toy example - Gaussian data with unknown variance </u>
+
+In this toy example, we will calculate the posterior distribution of the unknown variance of a sample drawn from a normal population centred about $0$,
+i.e. $\boldsymbol{\theta} = \sigma^2$ and
+\begin{align*}
+p_i(x_i \; | \boldsymbol{\theta}) &= p(x_i \; | \boldsymbol{\theta}), \\
+&= (2 \pi \sigma^2)^{- \tfrac{1}{2}} \exp \left \{ - \tfrac{x_i^2}{2 \sigma^2} \right \}.
+\end{align*}
+By assigning an Inverse Gamma prior on $\sigma^2$ with shape $A$ and scale $B$, we apply equation $(1)$ to obtain the posterior distribution for $\sigma^2$ as
+\begin{align*}
+p(\sigma^2 | \mathbf{x}) &\propto (\sigma^2) ^{ - (A + n/2) - 1}  \exp \left \{ - (B + \tfrac{1}{2} \lVert \mathbf{x} \rVert^2 )/\sigma^2   \right \},\\
+&= K(\sigma^2, \mathbf{x}) \;\;\;\; (2).
+\end{align*}
+To obtain the normalising constant for the above posterior, we can compute the integral according to the expression in equation $(2)$. However, this turns out to be unnecessary as the kernel $K$ is easily
+recognisable as that of a Inverse Gamma distribution with shape $A + n/2$ and scale $B + \tfrac{1}{2} \lVert \mathbf{x} \rVert^2$.
+Hence, we may write
+\begin{equation*}
+\sigma^2 \, | \, \mathbf{x} \sim \text{InvGa} (A + n/2, B + \tfrac{1}{2} \lVert \mathbf{x} \rVert^2).
+\end{equation*}
+
+A natural "point estimate" for $\sigma^2$ would be the posterior mean, i.e.
+\begin{equation*}
+\mathbb{E} (\sigma^2 \, | \, \mathbf{x}) = \frac{B + \tfrac{1}{2} \lVert \mathbf{x} \rVert^2}{A + n/2 - 1}.
+\end{equation*}
+To obtain an interval "estimate", one may use the quantiles of the $\text{InvGa} (A + n/2, B + \tfrac{1}{2} \lVert \mathbf{x} \rVert^2)$
+distribution.
