@@ -6,7 +6,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "http://duff.netlify.com"
+baseurl = "http://weichangyu10.github.io"
 
 # Title of your site
 title = "duff"
