@@ -22,7 +22,7 @@ publication = "In Computational Statistics and Data Analysis"
 publication_short = "In *CSDA*"
 
 # Abstract and optional shortened version.
-abstract = "XXX."
+abstract = "YYY."
 
 # Featured image thumbnail (optional)
 image_preview = ""
