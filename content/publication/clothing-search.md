@@ -18,7 +18,7 @@ authors = ["W Yu", "L Azizi", "JT Ormerod"]
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "In *ArXiV*, IEEE."
+publication = "In *ArXiV*"
 publication_short = "In *ArXiV*"
 
 # Abstract and optional shortened version.
@@ -69,5 +69,3 @@ image = ""
 caption = "My caption :smile:"
 
 +++
-
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.

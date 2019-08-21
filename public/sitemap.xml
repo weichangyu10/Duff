@@ -4,8 +4,24 @@
     
     <url>
     
+      <loc>/post/introduction-to-bayesian-inference/</loc>
+      <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication/clothing-search/</loc>
       <lastmod>2018-12-01T00:00:00+11:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/person-re-identification/</loc>
+      <lastmod>2018-09-01T00:00:00+10:00</lastmod>
     </url>
     
   
@@ -22,14 +38,6 @@
     
       <loc>/publication/cake/</loc>
       <lastmod>2017-10-01T00:00:00+10:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/example-talk/</loc>
-      <lastmod>2017-01-01T00:00:00+11:00</lastmod>
     </url>
     
   
@@ -60,38 +68,6 @@
     
     <url>
     
-      <loc>/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+10:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+10:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication/person-re-identification/</loc>
-      <lastmod>2015-09-01T00:00:00+10:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/2015-07-23-r-rmarkdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/publication_types/3/</loc>
       <lastmod>2018-12-01T00:00:00+11:00</lastmod>
       <priority>0</priority>
@@ -101,7 +77,8 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>/tags/bayesian-inference/</loc>
+      <lastmod>2019-01-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -109,8 +86,7 @@
     
     <url>
     
-      <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00+10:00</lastmod>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -127,26 +103,8 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/r-markdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/tags/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <lastmod>2019-01-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -156,24 +114,6 @@
     
       <loc>/</loc>
       <lastmod>2017-10-15T00:00:00+11:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/plot/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/regression/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     

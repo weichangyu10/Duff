@@ -1,6 +1,6 @@
 +++
 title = "Variational discriminant analysis with variable selection"
-date = 2015-09-01T00:00:00
+date = 2018-09-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -18,7 +18,7 @@ authors = ["W Yu", "JT Ormerod", "M Stewart"]
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "In *ArXiV*, IEEE."
+publication = "In *ArXiV*"
 publication_short = "In *ArXiV*"
 
 # Abstract and optional shortened version.
@@ -43,7 +43,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "http://arxiv.org/pdf/1512.04133v1"
+url_pdf = "https://arxiv.org/pdf/1812.06605.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -70,5 +70,3 @@ image = ""
 caption = ""
 
 +++
-
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.

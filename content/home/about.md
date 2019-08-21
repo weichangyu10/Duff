@@ -10,9 +10,12 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Bayesian priors",
+    "Bayesian hypothesis testing",
     "Bayesian nonparametrics",
-    "Variational approximation"
+    "Variational approximation",
+    "Classification",
+    "Variable selection",
+    "Differential expression analysis"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -35,4 +38,4 @@ weight = 5
 
 # Biography
 
-I am a PhD candidate at the University of Sydney under the supervision [A/Prof John Ormerod](https://www.maths.usyd.edu.au/u/jormerod/) and [Dr Lamiae Azizi](https://sydney.edu.au/science/people/lamiae.azizi.php).
+I am a PhD candidate at the University of Sydney under the supervision of [A/Prof John Ormerod](https://www.maths.usyd.edu.au/u/jormerod/) and [Dr Lamiae Azizi](https://sydney.edu.au/science/people/lamiae.azizi.php).
