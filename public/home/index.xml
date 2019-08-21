@@ -27,7 +27,7 @@
       <pubDate>Sun, 20 Jan 2019 00:00:00 +1100</pubDate>
       
       <guid>/home/about/</guid>
-      <description>Biography I am a PhD candidate at the University of Sydney under the supervision A/Prof John Ormerod and Dr Lamiae Azizi.</description>
+      <description>Biography I am a PhD candidate at the University of Sydney under the supervision of A/Prof John Ormerod and Dr Lamiae Azizi.</description>
     </item>
     
     <item>
@@ -99,9 +99,8 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
       
       <guid>/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-I am a teaching instructor for the following courses at University X:
- CS101: An intro to computer science CS102: An intro to computer science CS103: An intro to computer science CS104: An intro to computer science CS105: An intro to computer science CS106: An intro to computer science CS107: An intro to computer science  </description>
+      <description>I have taken on the following teaching roles at University of Sydney:
+ PHAR2813: Therapeutic Principles - Statistics for Pharmcy Students (Lecturer) STAT2912: Statistical Tests (Tutor) STAT3014: Applied Statistics (Tutor) MATH1005: Statistics (Tutor) MATH1015: Biostatistics (Tutor) QBUS5002: Quantitative Methods for Accounting (Tutor) QBUS5002: Quantitative Methods for Business (Tutor) QBUS3830: Advanced Analytics (Tutor)  </description>
     </item>
     
     <item>

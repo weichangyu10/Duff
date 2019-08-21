@@ -18,8 +18,8 @@ authors = ["W Yu", "L Azizi", "JT Ormerod"]
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "In *ArXiV*, IEEE."
-publication_short = "In *ArXiV*"
+publication = "In Computational Statistics and Data Analysis"
+publication_short = "In *CSDA*"
 
 # Abstract and optional shortened version.
 abstract = "Variable selection and classification methods are common objectives in the analysis of high-dimensional data. Most of these methods make distributional assumptions that may not be compatible with the diverse families of distributions in the data. In this paper, we propose a novel Bayesian nonparametric discriminant analysis model that performs both variable selection and classification in a seamless framework. Polya tree priors are assigned to the unknown group-conditional distributions to account for their uncertainty and allow prior beliefs about the distributions to be incorporated simply as hyperparameters. The computational cost of the algorithm is kept within an acceptable range by collapsed variational Bayes inference and a chain of functional approximations. The resultant decision rules carry heuristic interpretations and are related to the existing two-sample Bayesian nonparametric hypothesis test. By an application to some simulated and publicly available real datasets, we showed that our method performs well in comparison to current state-of-art approaches."
@@ -42,8 +42,8 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/1812.03648.pdf"
-url_preprint = "https://arxiv.org/pdf/1812.03648.pdf"
+url_pdf = "https://www.sciencedirect.com/science/article/pii/S0167947319301641"
+url_preprint = "https://www.sciencedirect.com/science/article/pii/S0167947319301641"
 url_code = ""
 url_dataset = ""
 url_project = ""
@@ -69,5 +69,3 @@ image = ""
 caption = "My caption :smile:"
 
 +++
-
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
