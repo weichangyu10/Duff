@@ -22,7 +22,7 @@ weight = 5
 [[education.courses]]
   course = "PhD in Statistics"
   institution = "University of Sydney"
-  year = "expected 2020"
+  year = "2020"
 
 [[education.courses]]
   course = "MSc in Biostatistics"
@@ -38,4 +38,4 @@ weight = 5
 
 # Biography
 
-I am a PhD candidate at the University of Sydney under the supervision of [A/Prof John Ormerod](https://www.maths.usyd.edu.au/u/jormerod/) and [Dr Lamiae Azizi](https://sydney.edu.au/science/people/lamiae.azizi.php).
+I am a postdoc at the University of Melbourne under the supervision of [Prof Howard Bondell](https://blogs.unimelb.edu.au/howard-bondell/#tabmain).

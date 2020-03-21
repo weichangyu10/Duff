@@ -64,16 +64,16 @@ enableGitInfo = false
 
   # Your details.
   name = "Weichang Yu"
-  role = "PhD Candidate in Computational Bayesian Statistics"
+  role = "Research Fellow in Statistical Data Science"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "School of Mathematics and Statistics, University of Sydney", url = "" } ]
+  organizations = [ { name = "School of Mathematics and Statistics, University of Melbourne", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait1.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "w.yu@maths.usyd.edu.au"
-  address = "Room 807, F07 Carslaw Building, Camperdown, NSW 2006, Australia"
+  email = "weichang.yu@unimelb.edu.au"
+  address = "Room 117, Old Geology South, Parkville, VIC 3010, Australia"
   office_hours = "By appointment only"
   skype = "weichangyu87"
 

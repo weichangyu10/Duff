@@ -27,7 +27,7 @@
       <pubDate>Sun, 20 Jan 2019 00:00:00 +1100</pubDate>
       
       <guid>/home/about/</guid>
-      <description>Biography I am a PhD candidate at the University of Sydney under the supervision of A/Prof John Ormerod and Dr Lamiae Azizi.</description>
+      <description>Biography I am a postdoc at the University of Melbourne under the supervision of Prof Howard Bondell.</description>
     </item>
     
     <item>
@@ -40,20 +40,20 @@
     </item>
     
     <item>
+      <title>Recent Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +1100</pubDate>
+      
+      <guid>/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
       <link>/home/skills/</link>
       <pubDate>Tue, 21 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/home/skills/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent Publications</title>
-      <link>/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
-      
-      <guid>/home/publications/</guid>
       <description></description>
     </item>
     
